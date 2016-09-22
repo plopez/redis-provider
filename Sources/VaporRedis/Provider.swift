@@ -46,4 +46,5 @@ public final class Provider: Vapor.Provider {
 
     public func afterInit(_ droplet: Droplet) {}
     public func beforeServe(_ droplet: Droplet) {}
+    public func beforeRun(_ drop: Droplet) {}
 }
